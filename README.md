@@ -19,11 +19,13 @@ Solution Overview:
 
 Time To Complete: 2.5 hours
 - Approx. 1hr to write json parser
-- Approx. 1 hr to analyze json and research potential indicators of NY PPO
+- Approx. 1 hr to analyze json and research potential indicators of NY PPO and finalize code
 - Approx. 0.5 hr of running different solutions
   
 Time To Run Final Solution: 12 minutes
 
 Trade Offs:
-- 
+- Simple check for NY PPO. Didn't utilize description as most NY PPO I saw in the description were not Anthem related.
+- Potentially could utilize Anthem's MRF EIN lookup for more robust confirmation of NY PPO. Perhaps running multiple operations in parrallel as each loop is independent.
+
 

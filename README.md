@@ -16,11 +16,6 @@ Solution Overview:
 - Iterate over json array element by element to minimize memory needed
 - Check if modifier "_39" is present as an indication of NY PPO present in the location
 - Write location to a file in ny_ppo_output
-
-Time To Complete: 2.5 hours
-- Approx. 1hr to write json parser
-- Approx. 1 hr to analyze json and research potential indicators of NY PPO and finalize code
-- Approx. 0.5 hr of running different solutions
   
 Time To Run Final Solution: 12 minutes
 
